@@ -79,14 +79,14 @@ $ bundle exec jekyll serve
 $ make all 
 ```
 
-6. link the local serve and do some modificaiton.
+6. link to the local server and do some modificaiton.
 >Every modification will trigger the compilation, so you can see the result at once in your browser after refresh. 
 
 ## More tips
 
-There several tool used in these pages. 
+There are several tools used in these pages. 
 
-The main style setting is the in _sass.
+The main style settings are in _sass.
 
 You can get more info in [sass](https://sass-lang.com/). 
 
