@@ -82,3 +82,11 @@ $ make all
 6. link the local serve and do some modificaiton.
 >Every modification will trigger the compilation, so you can see the result at once in your browser after refresh. 
 
+## More tips
+
+There several tool used in these pages. 
+
+The main style setting is the in _sass.
+
+You can get more info in [sass](https://www.sass.hk/). 
+
