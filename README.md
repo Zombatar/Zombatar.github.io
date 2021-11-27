@@ -88,5 +88,5 @@ There several tool used in these pages.
 
 The main style setting is the in _sass.
 
-You can get more info in [sass](https://www.sass.hk/). 
+You can get more info in [sass](https://sass-lang.com/). 
 
