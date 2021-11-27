@@ -1,36 +1,5 @@
-- title: Orgnization (0XX)
+- title: example
   pages: 
-  - 001_rule
-  - 002_journalclub
-  - 003_puertorico
   - 004_quickstart 
-  - 005_conf
 
 
-
-- title: Physics (1XX)
-  pages: 
-  - 101_particle 
-
-
-
-- title: Detector (2XX) 
-  pages:
-  - 201_detector 
-  - 202_silicon 
-  - 203_pixel 
-  - 204_strip 
-  - 205_timing 
-  - 206_rad
-  - 207_drift 
-
-
-
-- title: Computing (3XX)
-  pages:
-    - 301_linux 
-    - 302_mac
-    - 303_vsc
-    - 304_git
-    - 305_ml 
-    - 306_qc
