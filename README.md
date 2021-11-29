@@ -84,7 +84,7 @@ $ make all
 
 ## More tips
 
-There are several tools used in these pages. 
+There are several tools(sass, Liquid...) used in these pages.
 
 The main style settings are in _sass.
 
