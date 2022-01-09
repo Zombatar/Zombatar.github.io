@@ -69,7 +69,7 @@ $ git clone <your_own_fork_link>
 
 # install the environment gems like jekyll... and set the environment lock for this project
 # here bundler will read the Gemfile, load the settings and generate the Gemfile.lock
-$ bundle build 
+$ bundle install 
 ```
 
 5. build the page and start a local server.
