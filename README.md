@@ -4,7 +4,7 @@ http://Zombatar.github.io
 
 (temp, these pages are developed based on xteam.ihep.ac.cn)
 
-### Develop the page with Docker
+### Develop the pages with Docker
 
 We have build a docker image in which environment is set, you can use it follow these steps:
 
@@ -44,12 +44,22 @@ in your terminal.
 
 ```bash
 $ docker run -it -p 80:80 -v <where you put your git repository in your OS>:/home/ linj2020/s_group_page_dev/1.0.2
-#
+#-v will mount the file in your OS to the container's /home/
 ```
 
+5. enter container's /home/xxx and build the page
 
+```bash
+# cd /home/xxx
+# make test
+```
 
-### For Developers 
+6. open the browser in your OS and connect the localhost:80
+
+>After changing the repository you need to refresh the page.
+>In that case, you can modify the page files in your own OS and see the results in your own browser. 
+
+### Some other ways 
 
 1. Fork the project: https://github.com/zombatar/Zombatar.github.io into your own repo 
 
