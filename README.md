@@ -60,6 +60,24 @@ $ docker run -it -p 80:80 -v <where you put your git repository in your OS>:/hom
 >After changing the repository you need to refresh the page.
 >In that case, you can modify the page files in your own OS and see the results in your own browser. 
 
+7. After you restart your computer
+
+The container will shutdown, you need to start the container like this:
+
+```bash
+C:\Users\麦迪>docker ps -a
+CONTAINER ID   IMAGE                            COMMAND       CREATED        STATUS                      PORTS     NAMES
+8a9f315bc400   linj2020/sgroup_page_dev:1.0.2   "/bin/bash"   11 hours ago   Exited (0) 23 seconds ago             s_group_page
+C:\Users\麦迪>docker start s_group_page
+s_group_page
+C:\Users\麦迪>docker exec -it s_group_page bash
+[root@8a9f315bc400 /]# cd /home/Zombatar.github.io/
+[root@8a9f315bc400 Zombatar.github.io]# make test
+
+```
+
+Then check the localhost:80 to see the page.
+
 ### Some other ways 
 
 1. Fork the project: https://github.com/zombatar/Zombatar.github.io into your own repo 
