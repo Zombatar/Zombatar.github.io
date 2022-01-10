@@ -44,6 +44,7 @@ in your terminal.
 
 ```bash
 $ docker run -it -p 80:80 -v <where you put your git repository in your OS>:/home/ linj2020/sgroup_page_dev:1.0.2
+# like: docker run -it -p 80:80 -v C:\Users\麦迪\Desktop\git:/home/ linj2020/sgroup_page_dev:1.0.2
 #-v will mount the file in your OS to the container's /home/
 #-p set the port: localhost:80->80/tcp
 ```
