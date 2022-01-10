@@ -45,6 +45,7 @@ in your terminal.
 ```bash
 $ docker run -it -p 80:80 -v <where you put your git repository in your OS>:/home/ linj2020/s_group_page_dev/1.0.2
 #-v will mount the file in your OS to the container's /home/
+#-p set the port: localhost:80->80/tcp
 ```
 
 5. enter container's /home/xxx and build the page
