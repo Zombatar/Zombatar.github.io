@@ -30,7 +30,7 @@ $ systemctl start docker
 * For Windows, Linux or MacOS, use 
 
 ```bash
-$ docker pull linj2020/s_group_page_dev/1.0.2
+$ docker pull linj2020/sgroup_page_dev:1.0.2
 
 ```
 
