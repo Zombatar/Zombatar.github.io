@@ -12,7 +12,7 @@ http://Zombatar.github.io
 
 (temp, these pages are developed based on xteam.ihep.ac.cn)
 
-### Develop the pages with Docker
+## Develop the pages with Docker
 
 We have build a docker image in which environment is set, you can use it follow these steps:
 
