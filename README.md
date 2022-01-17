@@ -1,6 +1,14 @@
-## Welcome to S-Group ! 
+# Welcome to S-Group ! 
 
 http://Zombatar.github.io 
+
+1. Fork the project: https://github.com/zombatar/Zombatar.github.io into your own repo 
+
+2. Rename 'Zombatar' to username.github.io 
+
+3. Visit https://username.github.io 
+
+4. Make Pull Request to Zombatar/Zombatar.github.io. 
 
 (temp, these pages are developed based on xteam.ihep.ac.cn)
 
@@ -79,15 +87,8 @@ C:\Users\麦迪>docker exec -it s_group_page bash
 
 Then check the localhost:80 to see the page.
 
-### Some other ways 
+## Some other ways 
 
-1. Fork the project: https://github.com/zombatar/Zombatar.github.io into your own repo 
-
-2. Rename 'Zombatar' to username.github.io 
-
-3. Visit https://username.github.io 
-
-4. Make Pull Request to Zombatar/Zombatar.github.io. 
 
 ### For how these pages come
 
